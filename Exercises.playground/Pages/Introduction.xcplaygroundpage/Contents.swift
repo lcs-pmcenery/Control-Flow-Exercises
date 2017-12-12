@@ -3,8 +3,6 @@
  
  The purpose of this playground is to check your knowledge of concepts from these sections of *App Development with Swift*:
  
- * 1.2: Constants, Variables, and Data Types
- * 1.3: Operators
  * 1.4: Control Flow
  
  While you complete this playgroud, commit your work (ideally after every question).

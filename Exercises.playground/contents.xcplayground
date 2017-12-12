@@ -3,8 +3,6 @@
     <pages>
         <page name='Introduction'/>
         <page name='Source Control'/>
-        <page name='Constants, Variables, Data Types'/>
-        <page name='Operators'/>
         <page name='Control Flow'/>
     </pages>
 </playground>
