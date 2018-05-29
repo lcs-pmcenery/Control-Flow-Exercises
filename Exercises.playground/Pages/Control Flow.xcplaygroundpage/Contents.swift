@@ -37,6 +37,10 @@
  */
 var temperature = 0
 
+if temperature == 0 {
+    print("Brr, get your jacket")
+}
+
 // Answer Question 1 below
 
 
@@ -50,6 +54,11 @@ var temperature = 0
  */
 temperature = -20
 
+if temperature == 0 {
+    print("Get the jacket!")
+} else if temperature < 0 {
+    print("Dont leave water outside!")
+}
 // Answer Question 2 below
 
 
@@ -69,7 +78,13 @@ temperature = -20
 temperature = 15
 
 // Answer Question 3 below
-
+if temperature == 0 {
+    print("Get the jacket!")
+} else if temperature < 0 {
+    print("Dont leave water outside!")
+} else {
+    print("Might be shorts weather but still chilly!")
+}
 /*:
  
  ### Question 4
@@ -85,10 +100,14 @@ temperature = 15
  */
 let hasRedHair = true
 let alwaysGetsAttentionBySayingGentsAndLadies = true
-let teachesOutdoorEd = true
+let teachesOutdoorEd = false
 
 // Answer Question 4 below
-
+if hasRedHair == true && alwaysGetsAttentionBySayingGentsAndLadies == true && teachesOutdoorEd == false {
+    print("Must be Gordon!")
+} else {
+    print("Need more info.")
+}
 
 /*:
  
@@ -110,7 +129,11 @@ let starsTheRock = true
 
 // Answer Question 5 below
 
-
+if isAction == true || isComedy == true && starsTheRock == true {
+    print("Lets watch!")
+} else {
+    print("Have to play tic tac toe instead")
+}
 /*:
  
  ### Question 6
@@ -125,9 +148,20 @@ let starsTheRock = true
  * Otherwise prints "I literally can't even."
  
  */
-
+var finalGrade = 93
+var statment: String
 // Answer Question 6 below
-
+    switch finalGrade {
+    case 80..<101:
+        statment = "You've learned a lot, well done!"
+    case 60..<80:
+        statment = "Hmm, not bad, but could be better."
+    case 50..<60:
+        statment = "Should have booked more Grove Times."
+    default:
+        statment = "Literally can't even"
+}
+print(statment)
 
 
 
